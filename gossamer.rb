@@ -1,9 +1,9 @@
 class Gossamer < Formula
     desc "A command line tool to perform AWS IAM assume-roles"
     homepage "https://github.com/GESkunkworks/gossamer"
-    url "https://github.com/GESkunkworks/gossamer/releases/download/1.2.8/gossamer-darwin-amd64-1.2.8.35.tar.gz"
-    sha256 "6688bc3996d2c6fc93e3d1778214ccc8429ab2e3720dc9a1353f8c0c7ae003ea"
-    version "1.2.8.35"
+    url "https://github.com/GESkunkworks/gossamer/releases/download/1.2.10/gossamer-darwin-amd64-1.2.10.43.tar.gz"
+    sha256 "25c54af00ebf697d3f350fbd897a8a354b6454da33b9bd70c8df0517fb68c9cf"
+    version "1.2.10.43"
   
     def install
       bin.install "gossamer"
