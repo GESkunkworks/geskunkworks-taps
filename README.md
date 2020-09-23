@@ -5,6 +5,6 @@ homebrew taps
 
 For gossamer
 ```
-brew tap GESkunkworks/gossamer https://github.com/GESkunkworks/geskunkworks-taps
+brew tap GESkunkworks/geskunkworks-taps https://github.com/GESkunkworks/geskunkworks-taps
 brew install gossamer
 ```
