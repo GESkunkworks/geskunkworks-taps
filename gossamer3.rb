@@ -3,7 +3,7 @@ class Gossamer3 < Formula
     homepage "https://github.com/GESkunkworks/gossamer3"
     version "3.0.0-rc1"
     
-    on_mac do
+    on_macos do
         url "https://github.com/GESkunkworks/gossamer3/releases/download/v#{version}/gossamer3_#{version}_darwin_amd64.tar.gz"
         # openssl dgst -sha256 <file>
         sha256 "4c15f761448ad9cf45095560aa4109a4992056fdfa69da052ea2cc36749225f8"
