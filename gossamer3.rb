@@ -1,18 +1,18 @@
 class Gossamer3 < Formula
     desc "A command line tool to perform AWS IAM assume-roles using permanent credentials or SAML"
     homepage "https://github.com/GESkunkworks/gossamer3"
-    version "3.1.4"
+    version "3.1.6"
     
     on_macos do
         url "https://github.com/GESkunkworks/gossamer3/releases/download/v#{version}/gossamer3_#{version}_darwin_amd64.tar.gz"
         # openssl dgst -sha256 <file>
-        sha256 "e7f5763305d5df70c0a39b888e430049cce357f656b4522446fefb7fce1d235c"
+        sha256 "8c0ba5d46a12e6e3588a73ee3fe73f412f5d1ec9236fe67758296bdff790860a"
     end
     
     on_linux do
         url "https://github.com/GESkunkworks/gossamer3/releases/download/v#{version}/gossamer3_#{version}_linux_amd64.tar.gz"
         # openssl dgst -sha256 <file>
-        sha256 "fcca32a74e748f71a305fd0c27d1d19f73da16d11ade081c8615c844cc87cc4e"
+        sha256 "b913aaf8ce2921899ced6e1214ac3899e9fdc9c067942668b03bfd41787a0fcf"
     end
   
     def install
